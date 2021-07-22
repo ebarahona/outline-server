@@ -6,7 +6,7 @@
   "author": "Outline",
   "license": "Apache",
   "dependencies": {
-    "@google-cloud/bigquery": "^0.9.6"
+    "@google-cloud/bigquery": "^1.1.0"
   },
   "devDependencies": {
     "@google-cloud/functions-emulator": "1.0.0-alpha.23",

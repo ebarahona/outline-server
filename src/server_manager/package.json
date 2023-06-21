@@ -15,7 +15,7 @@
     "node-forge": "^0.7.1",
     "raven-js": "^3.17.0",
     "request-lite": "^2.40.1",
-    "semver": "^5.4.1"
+    "semver": "^7.5.2"
   },
   "devDependencies": {
     "@types/bytes": "^2.5.1",

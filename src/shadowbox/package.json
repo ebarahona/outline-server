@@ -15,11 +15,17 @@
     "randomstring": "^1.1.5",
     "request-lite": "^2.40.1",
     "restify": "^4.3.0",
-    "uuid": "^3.1.0"
+    "uuid": "^3.1.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/node": "^8",
     "@types/randomstring": "^1.1.6",
     "@types/restify": "^2.0.41"
-  }
+  },
+  "scripts": {
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
